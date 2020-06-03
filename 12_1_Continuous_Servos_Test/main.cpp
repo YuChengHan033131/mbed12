@@ -15,7 +15,7 @@ int main() {
     servo.period(.02);
 
     while(1) {
-        servo_control(100);
+        servo_control(0);
         wait(2);
         servo_control(0);
         wait(2);

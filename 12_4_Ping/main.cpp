@@ -8,7 +8,6 @@ int main() {
 
     float val;
     pc.baud(9600);
-
     while(1) {
 
         ping.output();
